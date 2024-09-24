@@ -13,14 +13,18 @@ int main()
     if(operation == '+'){
         answer = number1 + number2;
         printf("%f", answer);
-    }else if(operation == '-'){
+    }
+    else if(operation == '-'){
         answer = number1 - number2;
         printf("%f", answer);
-    }else if(operation == '*'){
+    }
+    else if(operation == '*'){
         answer = number1 * number2;
         printf("%f", answer);
-    }else if(operation == '/'){
+    }
+    else if(operation == '/'){
         answer = number1 / number2;
         printf("%f", answer);
-    }else printf("Sorry one of your inputs seem to be wrong!");
+    }
+    else printf("Sorry one of your inputs seem to be wrong!");
 }
