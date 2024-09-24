@@ -1,13 +1,13 @@
 int main()
 {
     float number1;
-    printf("Please enter a number: \n");
+    printf("Please enter a number: ");
     scanf("%f", &number1);
     char operation;
-    printf("Please enter an operation: \n");
+    printf("Please enter an operation: ");
     scanf(" %c", &operation);
     float number2;
-    printf("Please enter a number: \n");
+    printf("Please enter a number: ");
     scanf("%f", &number2);
     float answer; 
     if(operation == '+'){
