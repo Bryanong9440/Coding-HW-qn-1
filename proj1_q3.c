@@ -13,9 +13,6 @@ int main()
     int date;
     printf("The day you are asking about is: \n");
     scanf("%i", &date);
-    if(date < 1 || date > 31){
-        printf("Sorry, your input is invalid!");
-        return 1;
     }
     switch (input) {
         case 'M':
