@@ -12,19 +12,19 @@ int main()
     float answer; 
     if(operation == '+'){
         answer = number1 + number2;
-        printf("Your result is: %f", answer);
+        printf("Your result is: %1f", answer);
     }
     else if(operation == '-'){
         answer = number1 - number2;
-        printf("Your result is: %f", answer);
+        printf("Your result is: %1f", answer);
     }
     else if(operation == '*'){
         answer = number1 * number2;
-        printf("Your result is: %f", answer);
+        printf("Your result is: %1f", answer);
     }
     else if(operation == '/'){
         answer = number1 / number2;
-        printf("Your result is: %f", answer);
+        printf("Your result is: %1f", answer);
     }
     else printf("Sorry one of your inputs seem to be wrong!");
 }
