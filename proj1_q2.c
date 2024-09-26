@@ -19,4 +19,7 @@ int main()
     if(a > b){
         printf("%i is not a prime number", a);
     }
+    if(a == 2){
+        printf("%i is a prime number", a);
+    }
 }
