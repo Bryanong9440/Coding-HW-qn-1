@@ -3,7 +3,7 @@
 int main()
 {
     char input;
-    printf("The first day of the month is: ");
+    printf("The first day of the month is: \n");
     scanf(" %c", &input);
     if(input != 'M' && input != 'T' && input != 'W' && input != 'H' && input != 'F' && input != 'S' && input != 'U'){
         printf("Sorry, your input is invalid!");
@@ -11,7 +11,7 @@ int main()
     }
     int day_number;
     int date;
-    printf("The day you are asking about is: ");
+    printf("The day you are asking about is: \n");
     scanf("%i", &date);
     if(date < 1 || date > 31){
         printf("Sorry, your input is invalid!");
