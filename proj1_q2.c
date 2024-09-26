@@ -5,6 +5,8 @@ int main()
     printf("Please enter an integer: ");
     scanf("%i", &a);
     int b = 2;
+    if(a <= 1){
+        printf("%i is not a prime number", a);
     while(a % b != 0){
         if (a > b){
         b++;    
