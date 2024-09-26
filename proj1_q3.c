@@ -40,12 +40,12 @@ int main()
     const char* day_of_week[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     
     if(date == 1 || date == 21 || date == 31){
-        printf("the %ist is a %s", date, day_of_week[day_number]);
+        printf("The %ist is a %s", date, day_of_week[day_number]);
     }else if(date == 2 || date == 22){
-        printf("the %ind is a %s", date, day_of_week[day_number]);
+        printf("The %ind is a %s", date, day_of_week[day_number]);
     }else if(date == 3 || date == 23){
-        printf("the %ird is a %s", date, day_of_week[day_number]);
+        printf("The %ird is a %s", date, day_of_week[day_number]);
     }else{
-        printf("the %ith is a %s", date, day_of_week[day_number]);
+        printf("The %ith is a %s", date, day_of_week[day_number]);
         }
 }
