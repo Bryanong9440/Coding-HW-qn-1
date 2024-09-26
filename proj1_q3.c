@@ -13,7 +13,6 @@ int main()
     int date;
     printf("The day you are asking about is: \n");
     scanf("%i", &date);
-    }
     switch (input) {
         case 'M':
             day_number = 0; break;
