@@ -11,7 +11,7 @@ int main()
     if(a == 2){
         printf("%i is a prime number", a);
     }
-    while(a % b != 0){
+    while(a % b != 0 && a > 2){
         if (a > b){
         b++;    
         }
